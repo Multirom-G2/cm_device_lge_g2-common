@@ -3,6 +3,7 @@
 ###                                     ###
 
 # Common Options
+DEVICE_RESOLUTION := 1080x1920
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
@@ -20,6 +21,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_TARGET_USES_QCOM_BSP := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_JPEG := true
+TW_SCREEN_BLANK_ON_BOOT := true
 
 # Enable f2fs filesystem tools
 # Should be on by default, but turn on just in case
