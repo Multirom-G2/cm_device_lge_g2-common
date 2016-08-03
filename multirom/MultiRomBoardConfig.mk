@@ -19,11 +19,13 @@ else
 MR_FSTAB := device/lge/g2-common/twrp/fstab/twrp.g2.no_sd.fstab
 endif
 MR_USE_MROM_FSTAB := true
-MR_KEXEC_MEM_MIN := 0x04000000
+MR_KEXEC_MEM_MIN := 0x0ff00000
 MR_KEXEC_DTB := true
-MR_RD_ADDR := 0x05200000
+MR_RD_ADDR := 0x2200000
 MR_DEVICE_HOOKS := device/lge/g2-common/multirom/mr_hooks.c
 MR_DEVICE_HOOKS_VER := 4
 MR_DEFAULT_BRIGHTNESS := 80
-MR_CONTINUOUS_FB_UPDATE := true
-MR_PIXEL_FORMAT := "RGB_565"
+MR_PIXEL_FORMAT := "RGBX_8888"
+MR_USE_QCOM_OVERLAY := true
+MR_QCOM_OVERLAY_HEADER := device/lge/g2-common/multirom/mr_qcom_overlay.h
+MR_QCOM_OVERLAY_CUSTOM_PIXEL_FORMAT := MDP_RGBX_8888
