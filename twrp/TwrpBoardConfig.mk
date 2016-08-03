@@ -22,7 +22,7 @@ TW_TARGET_USES_QCOM_BSP := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_JPEG := true
 TW_SCREEN_BLANK_ON_BOOT := true
-
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
 # Enable f2fs filesystem tools
 # Should be on by default, but turn on just in case
 TARGET_USERIMAGES_USE_F2FS := true
