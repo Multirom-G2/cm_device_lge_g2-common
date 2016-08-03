@@ -128,4 +128,4 @@ WIFI_DRIVER_FW_PATH_AP      := "/system/etc/firmware/fw_bcmdhd_apsta.bin"
 
 # Include TWRP and MultiRom Options
 include device/lge/g2-common/twrp/TwrpBoardConfig.mk
-include device/lge/g2-common/twrp/MultiRomBoardConfig.mk
+include device/lge/g2-common/multirom/MultiRomBoardConfig.mk
